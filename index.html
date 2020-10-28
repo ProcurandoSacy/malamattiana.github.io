@@ -28,12 +28,6 @@ body {
     transition: left .5s ease-in, top .5s ease-in;
 }
 
-#objeto_01 {
-    position: relative;
-   height:50px;
-    width:50px;	
-}
-
 
 .touchMeNot{
     position:absolute;
@@ -41,19 +35,34 @@ body {
     height:50px;
     width:50px;
 }
-/* Centered text */
-.centered {
-  position: relative;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
+
+
+  #thisbanner {
+  max-width: 700px;
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+
+h1 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin-top: -12%;
+  max-width: 610px;
+  font-size: 4vw;
+  font-family: 'Roboto Slab', Rockwell, Serif;
+  font-weight: bold;
+  color: #FFF;
+  text-shadow: 0 .125em .125em rgba(0, 0, 0, .5);
+  padding: .6em 1em .6em 1.7em;
 }
+.interior-header img {
+  display: block;
+  position: relative;
+  width: 30vw; 
+  height: auto;
+  border: 1px solid #b22222;
+  padding: 1px;
+}
+
 </style>
 </head>
  
@@ -61,54 +70,37 @@ body {
 <div id="contentContainer">
     <div class="touchMeNot"> <img id="thing" src="saci.gif"></div>
 	
-	<div class="w3-container">
+
 	<!-- título do container-->
-		<h2>Escolha sua sala</h2>
-	<!-- Paginação em linha pelo w3-->
-		<div class="w3-row">
-			  <a href="#" class="w3-bar-item w3-red w3-container" style="width:20%"><a href="  https://meet.google.com/exg-njye-jsp" target="blank"><img src="Gorro.png"> </a> </div> <div class="centered">FERMENTAÇÂO</div> </a>
-			  <a href="#" class="w3-bar-item w3-blue w3-container" style="width:20%"> <a href=" https://meet.google.com/rmf-mnem-zoa" target="blank"> <img src="Gorro.png"> </a> </div><div class="centered">YOGA</div> </a>
-			  <a href="#" class="w3-bar-item w3-yellow w3-container" style="width:20%" ><a href="  https://meet.google.com/xqh-rkgo-rhj" target="blank"> <img src="Gorro.png"> </a> </div><div class="centered">CACHIMBO</div> </a>
-			  <a href="#" class="w3-bar-item w3-green w3-container" style="width:20%"><a href="https://meet.google.com/nso-axjb-xbs" target="blank"><img src="Gorro.png"> </a> </div><div class="centered">MASSINHA</div> </a>
-			
-			<br>
-	<!--<div class="container">
-	<div style="position:relative;left:20%;top:20%;height:50px;width:50px;" ><a href="  https://meet.google.com/exg-njye-jsp" target="blank"><img src="Gorro.png"> </a> </div> <div class="centered">FERMENTAÇÂO</div> 
+		<h2>Escolha a sua sala</h2>
+<
+  <div class="interior-header img">
+	<a href="  https://meet.google.com/exg-njye-jsp" target="blank"><img src="Gorro.png" alt="Traffic Control"> </a>
+    <div class="headerimage">		
+        <h1>Fermentação</h1>
+    </div>
+  </div>
+
+	<div class="interior-header img">
+	<a href=" https://meet.google.com/rmf-mnem-zoa" target="blank"><img src="Gorro.png" alt="Traffic Control"> </a>
+    <div class="headerimage">		
+        <h1>Yoga</h1>
+    </div>
+  </div>
+  <div class="interior-header img">
+	<a href="https://meet.google.com/xqh-rkgo-rhj" target="blank"><img src="Gorro.png" alt="Traffic Control"> </a>
+    <div class="headerimage">		
+        <h1>Cachimbo</h1>
+    </div>
+  </div>
+	<div class="interior-header img">
+		<a href="https://meet.google.com/nso-axjb-xbs"" target="blank"><img src="Gorro.png" alt="Traffic Control"> </a>
+		<div class="headerimage">		
+			<h1>Massinha</h1>
+		</div>
 	</div>
-	
-	<div class="container">
-	<div style="position:relative;left:30%;top:40%;height:50px;width:50px;"><a href=" https://meet.google.com/rmf-mnem-zoa" target="blank"> <img src="Gorro.png"> </a> </div><div class="centered">YOGA</div> 
-	</div>
-	
-	<div class="container">
-	<div style="position:relative;left:60%;top:60%;height:50px;width:50px;"><a href="  https://meet.google.com/xqh-rkgo-rhj" target="blank"> <img src="Gorro.png"> </a> </div><div class="centered">CACHIMBO</div> 
-	</div>
-	
-	<div class="container">
-	<div style="position:relative;left:80%;top:80%;height:50px;width:50px;"><a href="https://meet.google.com/nso-axjb-xbs" target="blank"><img src="Gorro.png"> </a> </div><div class="centered">MASSINHA</div> 
-	</div>
-	
-	</div>-->
-	</div>
-desenhos 
-	
 </div>
- <div class="w3-row">
-			  <a href="#" class="w3-bar-item w3-red w3-container" style="width:20%"><a href="  https://meet.google.com/exg-njye-jsp" target="blank"><img src="Gorro.png"> </a>  <div class="centered">FERMENTAÇÂO</div> </a>
-			  <a href="#" class="w3-bar-item w3-blue w3-container" style="width:40%"> <a href=" https://meet.google.com/rmf-mnem-zoa" target="blank"> <img src="Gorro.png"> </a> <div class="centered">YOGA</div> </a>
-			  <a href="#" class="w3-bar-item w3-yellow w3-container" style="width:60%" ><a href="  https://meet.google.com/xqh-rkgo-rhj" target="blank"> <img src="Gorro.png"> </a> <div class="centered">CACHIMBO</div> </a>
-			  <a href="#" class="w3-bar-item w3-green w3-container" style="width:80%"><a href="https://meet.google.com/nso-axjb-xbs" target="blank"><img src="Gorro.png"> </a> <div class="centered">MASSINHA</div> </a>
-			
-			<br>
-</div>
-<p>A w3-row é a classe para se criar uma Fila de Colunas</p>
-			</div>
-			<div class="w3-row"><!-- Cria a Fila de Colunas do w3-->	
-			  <div class="w3-col w3-green w3-container" style="width:20%"><p>20%</p><a href="#" class="w3-bar-item w3-red w3-container" style="width:20%"><a href="  https://meet.google.com/exg-njye-jsp" target="blank"><img src="Gorro.png"> </a> </div><!-- Cria uma Coluna na Fila do w3-->	
-			  <div class="w3-col w3-blue w3-container" style="width:60%"><p>60%</p><a href="#" class="w3-bar-item w3-blue w3-container" style="width:40%"> <a href=" https://meet.google.com/rmf-mnem-zoa" target="blank"> <img src="Gorro.png"> </a> <div class="centered">YOGA</div> </a></div><!-- Cria uma Coluna na Fila do w3-->
-			  <div class="w3-col w3-red w3-container" style="width:20%"><p>20%</p></div><!-- Cria uma Coluna na Fila do w3-->
-			</div>
-			<br>
+
 <script src="//www.kirupa.com/prefixfree.min.js"></script>
 
 <script>
