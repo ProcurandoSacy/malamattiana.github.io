@@ -13,15 +13,15 @@ body {
     font-family: 'Permanent Marker', cursive;
     margin: 30px;
     margin-top: 10px;
-}
+	}
 p{
 font-family: 'Permanent Marker', cursive;
   font-size: 2vw;
 }
 
 #contentContainer {
-    width: 100%;
-    min-height: 90vh;
+  width: 100%;
+    height: auto;
     border: 5px black solid;
     overflow: hidden;
     background-image:  url('IMG-20201028-WA0014.jpg');
@@ -61,7 +61,7 @@ h1 {
   display: block;
   width: 100%;
   margin-top: -12%;
-  max-width: 610px;
+  max-width: 90%;
   font-size: 4vw;
   font-weight: bold;
   color: #FFF;
@@ -82,75 +82,28 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
-/* Popup container - can be anything you want */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+svg {
+      width:  auto;
+      height: auto;
 }
 
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
 </style>
 </head>
  
 <body>
-
-<img id="marcaMalaMattiana" class="center" width="80%" src="IMG-20201028-WA0011.jpg">
+<a name="top">
+<img id="marcaMalaMattiana" class="center" width="25%" src="IMG-20201028-WA0011.jpg">
+</a>
 <h2>APRESENTA:</h2>
-<img id="marcaProcurandoSacy" class="center" width="80%" src="Marca.png">
+<img id="marcaProcurandoSacy" class="center" width="25%" src="Marca.png">
 
 <h2 class="center"> ESCOLHA SUA SALA AO CAMINHAR PELO JOGO DE AMARELINHA </h2>
 <div id="contentContainer">
-    <div class="touchMeNot" width="10%" > <img id="thing" src="Gorro.png"></div>
+    <div class="touchMeNot" width="5%" > <img id="thing"  src="Gorro.png"></div>
 	<!-- título do container-->
 	
 	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 599 584">
-  <image width="599" height="584" xlink:href="IMG-20201028-WA0014.jpg"></image>
+	<!--<image width="599" height="584" xlink:href="IMG-20201028-WA0014.jpg"></image>-->
   <!-- sala 1 -->
   <a target="blank" xlink:href="https://meet.google.com/nso-axjb-xbs">
     <rect x="160" y="111" fill="#fff" opacity="0" width="133" height="100"></rect>
@@ -199,6 +152,9 @@ h1 {
 
 	  </div>
 </div>
+<hr>
+<a href="#top"><p>VOLTAR AO INÍCIO</p></a>
+<hr>
 <p>Site criado pelo Prof.Dr.Artes .Marcos André Penna Coutinho</p>
 <script src="//www.kirupa.com/prefixfree.min.js"></script>
 
