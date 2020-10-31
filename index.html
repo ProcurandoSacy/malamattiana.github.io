@@ -20,15 +20,17 @@ font-family: 'Permanent Marker', cursive;
 }
 
 #contentContainer {
-  width: 100%;
-    height: auto;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+   width: 100%;
+   max-width: 90vh;
+    min-height: 90vh;
     border: 5px black solid;
     overflow: hidden;
-    background-image:  url('IMG-20201028-WA0014.jpg');
-	background-repeat: no-repeat;
-  background-attachment: cover;
-  background-size: 100%;
     cursor: pointer;
+    
 }
 #thing {
     position: relative;
@@ -37,12 +39,9 @@ font-family: 'Permanent Marker', cursive;
     transition: left .5s ease-in, top .5s ease-in;
 }
 
-
+ 
 .touchMeNot{
-    position:absolute;
-   
-    height:50px;
-    width:50px;
+  position: relative;
 }
 
 
@@ -57,6 +56,7 @@ h2{
   padding: .6em 1em .6em 1.7em;
   }
 h1 {
+font-family: 'Permanent Marker', cursive;
   position: absolute;
   display: block;
   width: 100%;
@@ -80,7 +80,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  
 }
 svg {
       width:  auto;
@@ -92,18 +92,23 @@ svg {
  
 <body>
 <a name="top">
+<p>Instituto Educacional Mala Mattiana. <br>Instagram:@malamattiana<br> Youtube:Mala Mattiana Instituto Educacional <br>E-mail:contato@malamattiana.com</p>
 <img id="marcaMalaMattiana" class="center" width="25%" src="IMG-20201028-WA0011.jpg">
 </a>
 <h2>APRESENTA:</h2>
 <img id="marcaProcurandoSacy" class="center" width="25%" src="Marca.png">
-
 <h2 class="center"> ESCOLHA SUA SALA AO CAMINHAR PELO JOGO DE AMARELINHA </h2>
+<marquee direction="down" width="100%" height="100%" behavior="alternate" style="border:solid;border-color:white">
+  <marquee behavior="alternate">
+    <img src="Cachimbo.png" width="5%">
+  </marquee>
+</marquee>
 <div id="contentContainer">
-    <div class="touchMeNot" width="5%" > <img id="thing"  src="Gorro.png"></div>
+    <div class="touchMeNot"> <img id="thing"  width="15%" src="Gorro.png"></div>
 	<!-- título do container-->
-	
+
 	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 599 584">
-	<!--<image width="599" height="584" xlink:href="IMG-20201028-WA0014.jpg"></image>-->
+	<image width="599" height="584" xlink:href="IMG-20201028-WA0014.jpg"></image>
   <!-- sala 1 -->
   <a target="blank" xlink:href="https://meet.google.com/nso-axjb-xbs">
     <rect x="160" y="111" fill="#fff" opacity="0" width="133" height="100"></rect>
@@ -152,10 +157,14 @@ svg {
 
 	  </div>
 </div>
+<marquee scrollamount="8" direction="top"><img src="Pito.png" width="15%"></marquee>
+<marquee scrollamount="8" direction="right"><img src="Vento.gif" width="15%"></marquee>
 <hr>
 <a href="#top"><p>VOLTAR AO INÍCIO</p></a>
 <hr>
-<p>Site criado pelo Prof.Dr.Artes .Marcos André Penna Coutinho</p>
+<marquee scrollamount="3" direction="right"><h2>Coordenação pedagógica e produção de Bela. Psicologia.Pedagogia.Artes Mariana Borchio email:marianaborchio@gmail.com</h2></marquee>
+<marquee scrollamount="3" direction="left"><h2>Ilustrações e curadoria de Profa.Ma.Artes . Marlette Aparecida Rezende de Menezes email: </h2></marquee>
+<marquee scrollamount="3" direction="right"><h2>Site criado de Prof.Dr.Artes .Marcos André Penna Coutinho e-mail:marcos.coutinho@fumec.br</h2></marquee>
 <script src="//www.kirupa.com/prefixfree.min.js"></script>
 
 <script>
